@@ -1,0 +1,10 @@
+$border-radius: rem-calc(12);
+$border-radius-small: rem-calc(4);
+$header-height: 59px;
+$header-sub-height: 68px;
+$talk-form-height: 97px;
+
+// カスタムイージング
+$ease-panel-show: cubic-bezier(0.355, 0.095, 0.285, 0.920);
+$ease-chat-show: cubic-bezier(0.300, 1, 0.320, 1.000);
+$ease-bounce: cubic-bezier(0.06, 1.53, 0.59, 1.01);

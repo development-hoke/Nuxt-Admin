@@ -1,0 +1,35 @@
+@import 'vue-select/src/scss/vue-select.scss';
+@import "foundation/color";
+@import "foundation/variables";
+@import "foundation/z-index";
+@import "object/component/form";
+@import "object/component/tab";
+@import "object/component/table";
+@import "object/component/wysiwyg";
+@import "object/utility/bg";
+@import "layout/doc";
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s ease-out;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+.border-outline {
+  border: 1px solid #e0e0e0;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.nav-collapsed + #main {
+  padding-left: 64px;
+}

@@ -1,0 +1,52 @@
+<template>
+  <div>
+    <p>F（メーカーサイズ38）</p>
+    <figure class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>着丈</th>
+            <th>肩幅</th>
+            <th>袖丈</th>
+            <th>身幅</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>64cm</td>
+            <td>58cm</td>
+            <td>48.5cm</td>
+            <td>62.5cm</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>G（メーカーサイズ40）</p>
+    <figure class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>着丈</th>
+            <th>肩幅</th>
+            <th>袖丈</th>
+            <th>身幅</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>64cm</td>
+            <td>58cm</td>
+            <td>48.5cm</td>
+            <td>62.5cm</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ItemSizeOptionalInfo',
+}
+</script>

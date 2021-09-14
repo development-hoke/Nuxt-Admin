@@ -1,0 +1,28 @@
+body.document_mode .container {
+  counter-reset: number 0;
+}
+
+body.document_mode .doc {
+  counter-increment: number 1;
+  position: relative;
+}
+body.document_mode .doc::before {
+  content: counter(number);
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  margin-top: -15px;
+  z-index: $document_number;
+}
+
+body.document_mode .doc.root::before {
+  display: none;
+}
